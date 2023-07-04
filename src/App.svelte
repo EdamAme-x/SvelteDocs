@@ -1,16 +1,15 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Header from "./lib/Header.svelte"
+  import "./global.css" 
+  import Router from 'svelte-spa-router'
+
+  import Home from "./index.svelte"
+  import Docs from "./index.svelte"
+
+  const routes = {
+        '/': Home,
+        '/docs': Docs,
+        '*': Home
+    }; //path <=> .svelte
 </script>
 
-<Header />
-<main>
-
-</main>
-
-<style>
-  body {
-    margin: 0;
-  }
-</style>
+<Router routes={routes}/>
