@@ -21,6 +21,9 @@
       Get Started
     </button>
   </div>
+
+  <hr color="#2c3e50" class="border"/>
+
 </main>
 
 <style>
@@ -74,5 +77,10 @@
 
     .button:hover {
       background: #ff6d3c;
+    }
+
+    .border {
+      margin-top: 50px;
+      opacity: 0.2;
     }
 </style>
