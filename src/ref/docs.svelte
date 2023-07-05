@@ -65,15 +65,13 @@
   <h2>連絡先</h2>
   <p>@macl2189 / @EdamAme-x</p>
   <h3>test</h3>
-
+  
   <div id="tree">
 
   </div>
 </docs>
 
   {@html parsedContent}
-
-
 <style>
   
 </style>
