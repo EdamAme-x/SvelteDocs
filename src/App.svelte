@@ -3,11 +3,11 @@
   import Router from 'svelte-spa-router'
 
   import Home from "./index.svelte"
-  import Docs from "./index.svelte"
+  import Ref from "./ref/index.svelte"
 
   const routes = {
         '/': Home,
-        '/docs': Docs,
+        '/ref': Ref,
         '*': Home
     }; //path <=> .svelte
 </script>
