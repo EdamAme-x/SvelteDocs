@@ -24,6 +24,20 @@
 
   <hr color="#2c3e50" class="border"/>
 
+  <div class="feature-box">
+    <div class="feature">
+      <h3>aa</h3>
+    </div>
+
+    <div class="feature">
+      <h3>aa</h3>
+    </div>
+
+    <div class="feature">
+      <h3>aa</h3>
+    </div>
+  </div>
+
 </main>
 
 <style>
@@ -82,5 +96,15 @@
     .border {
       margin-top: 50px;
       opacity: 0.2;
+    }
+
+    .feature {
+      width: 33%;
+      text-align: center;
+    }
+
+    .feature-box {
+      display: flex;
+      flex-wrap: wrap;
     }
 </style>
