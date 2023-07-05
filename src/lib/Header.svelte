@@ -35,6 +35,21 @@ function DarkView() {
         transition: .25s;
       }
     `;
+  }else {
+    setTimeout(() => {
+    
+    let themeStyle = document.querySelector("[docs-theme]");
+    if (themeStyle) {
+      themeStyle.innerHTML = `
+        body {
+          color: #fff !important;
+          background-color: #2c3e49 !important;
+          transition: .25s;
+        }
+      `;
+    
+    }
+    },100) // plz fix
   }
 }
 
