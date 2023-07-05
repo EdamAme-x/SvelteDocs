@@ -3,6 +3,10 @@
   import viteLogo from '/vite.svg'
   import Header from "./lib/Header.svelte"
   import Footer from "./lib/Footer.svelte"
+
+  function toRef() {
+    location.href = "/#/ref"
+  }
 </script>
 
 
@@ -18,7 +22,7 @@
   </div>
 
   <div class="button-box">
-    <button class="button">
+    <button class="button" on:click={toRef}>
       Get Started
     </button>
   </div>

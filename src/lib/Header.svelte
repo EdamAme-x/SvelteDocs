@@ -103,7 +103,7 @@ function LiteView() {
     <div class="icon-box">
       <img src={ModeImg} on:click={changeMode} alt="LiteIcon" height="30" class="icon">
     </div>
-    <a href="/ref">
+    <a href="/#/ref">
       Reference
     </a>
     <a href="https://github.com/EdamAme-x/SvelteDocs">
