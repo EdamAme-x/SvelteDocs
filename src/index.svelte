@@ -103,6 +103,10 @@
       text-align: center;
     }
 
+    .feature h3 {
+      font-size: 1.5rem;
+    }
+
     .feature-box {
       display: flex;
       flex-wrap: wrap;
