@@ -5,7 +5,7 @@
   import Footer from "./lib/Footer.svelte"
 
   function toRef() {
-    location.href = "/ref"
+    location.href = "/#/ref"
   }
 </script>
 
