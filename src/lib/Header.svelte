@@ -34,6 +34,10 @@ function DarkView() {
         background-color: #2c3e49 !important;
         transition: .25s;
       }
+
+      ::-webkit-scrollbar-track {
+        background-color: #2c3e49;
+      }
     `;
   }else {
     setTimeout(() => {
@@ -45,6 +49,10 @@ function DarkView() {
           color: #fff !important;
           background-color: #2c3e49 !important;
           transition: .25s;
+        }
+
+        ::-webkit-scrollbar-track {
+          background-color: #2c3e49;
         }
       `;
     
@@ -61,6 +69,10 @@ function LiteView() {
         color: #2c3e49 !important;
         background-color: #fff !important;
         transition: .25s;
+      }
+
+      ::-webkit-scrollbar-track {
+          background-color: #fff;
       }
     `;
   }
@@ -88,7 +100,9 @@ function LiteView() {
 <header>
   <h1 on:click={toTop}>Svelte Docs</h1>
   <nav>
-    <img src={ModeImg} on:click={changeMode} alt="LiteIcon" height="30" class="icon">
+    <div class="icon-box">
+      <img src={ModeImg} on:click={changeMode} alt="LiteIcon" height="30" class="icon">
+    </div>
     <a href="/ref">
       Reference
     </a>
@@ -131,6 +145,12 @@ function LiteView() {
     font-weight: 600;
     font-size: 0.9rem;
     padding: 14px 8px 0px 8px;
+  }
+
+  .icon-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
   }
 
   .icon {

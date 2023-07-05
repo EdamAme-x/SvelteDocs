@@ -2,6 +2,7 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Header from "./lib/Header.svelte"
+  import Footer from "./lib/Footer.svelte"
 </script>
 
 
@@ -48,7 +49,10 @@
     </div>
   </div>
 
+  <hr color="#2c3e50" class="border"/>
+
 </main>
+<Footer />
 
 <style>
     main {
@@ -110,7 +114,6 @@
 
     .feature {
       width: 33%;
-      text-align: center;
     }
 
     @media (max-width: 800px) {
@@ -120,16 +123,26 @@
     }
 
     .feature h3 {
-      font-size: 1.35rem;
+      font-size: 1.55rem;
+      margin: 5px;
+      margin-bottom: 10px;
+      text-align: left;
+      padding-left: 12px;
+      font-weight: 500;
     }
 
     .feature-text {
       font-size: 1.1rem;
+      opacity: 0.8;
+      margin-left: 10px;
+      line-height: 1.41;
     }
 
     .feature-box {
       display: flex;
       flex-wrap: wrap;
-      margin: 5px;
+      margin: 10px;
+      margin-top: 25px;
+      margin-bottom: 40px;
     }
 </style>

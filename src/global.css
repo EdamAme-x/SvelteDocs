@@ -12,7 +12,7 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background-color: #ccc;
+  background-color: #fff;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #ff6d3c;
@@ -20,4 +20,9 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline #ff6d3c 1.5px;
 }
