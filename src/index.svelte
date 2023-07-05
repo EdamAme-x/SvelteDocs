@@ -34,10 +34,17 @@
 
     <div class="feature">
       <h3>Easy &amp; Fast</h3>
+      <div class="feature-text">
+        It can be built quickly because it is already a complete Template.
+        It also has the ease of Svelte.
+      </div>
     </div>
 
     <div class="feature">
       <h3>Customize</h3>
+      <div class="feature-text">
+        Because it is written in native Svelte and CSS, it is highly customizable.
+      </div>
     </div>
   </div>
 
