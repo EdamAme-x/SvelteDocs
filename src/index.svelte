@@ -26,15 +26,18 @@
 
   <div class="feature-box">
     <div class="feature">
-      <h3>aa</h3>
+      <h3>In Svelte.</h3>
+      <div class="feature-text">
+        Template for creating a documentation site using Svelte, complete with Svelte.
+      </div>
     </div>
 
     <div class="feature">
-      <h3>aa</h3>
+      <h3>Easy &amp; Fast</h3>
     </div>
 
     <div class="feature">
-      <h3>aa</h3>
+      <h3>Customize</h3>
     </div>
   </div>
 
@@ -103,12 +106,23 @@
       text-align: center;
     }
 
+    @media (max-width: 800px) {
+      .feature {
+        width: 100%;
+      }
+    }
+
     .feature h3 {
-      font-size: 1.5rem;
+      font-size: 1.35rem;
+    }
+
+    .feature-text {
+      font-size: 1.1rem;
     }
 
     .feature-box {
       display: flex;
       flex-wrap: wrap;
+      margin: 5px;
     }
 </style>
